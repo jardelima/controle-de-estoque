@@ -1,0 +1,29 @@
+{
+    "env": {
+        "commonjs": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "prettier",
+        "plugin:security-node/recommended"
+    ],
+    "plugins": [
+        "prettier",
+        "security-node"
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "prettier/prettier": [
+            "error",
+            {
+                "singleQuote": false,
+                "doubleQuote": true,
+                "tabWidth": 4
+            }
+        ]
+    }
+}

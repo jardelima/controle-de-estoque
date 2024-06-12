@@ -5,6 +5,8 @@ API de controle de estoque desenvolvido por mim usando:
 - Node
 - Express
 - Docker
+- Prisma
+- Postgresql
 
 ## Rodar projeto
 Node v18.19

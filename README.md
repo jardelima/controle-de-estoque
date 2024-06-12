@@ -14,7 +14,7 @@ Node v18.19
 ### Instalar dependências
 `npm i`
 
-### Rodar arquivo docker compose com postgres
+### Rodar arquivo docker compose com ambiente postgres
 `docker compose up -d`
 
 ### Rodar API
